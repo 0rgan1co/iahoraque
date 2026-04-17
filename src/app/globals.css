@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @theme {
-  --color-bg: #0a0a0a;
+  --color-bg: #070709;
   --color-bg-card: rgba(255, 255, 255, 0.04);
   --color-border: rgba(255, 255, 255, 0.08);
   --color-border-hover: rgba(255, 255, 255, 0.15);
@@ -22,6 +22,124 @@ body {
   background: var(--color-bg);
   color: var(--color-text);
   -webkit-font-smoothing: antialiased;
+  background-image:
+    radial-gradient(ellipse 80% 60% at 50% -10%, rgba(59, 130, 246, 0.14) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 40% at 80% 120%, rgba(221, 132, 72, 0.08) 0%, transparent 60%);
+  background-attachment: fixed;
+}
+
+/* Grid pattern background — referencia 21st.dev / shadcn */
+.bg-grid {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.bg-grid-sm {
+  background-image:
+    linear-gradient(to right, rgba(255, 255, 255, 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.035) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.bg-dot {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+
+/* Radial mask for grid fade out at edges */
+.mask-radial {
+  -webkit-mask-image: radial-gradient(ellipse 70% 60% at 50% 50%, black 40%, transparent 80%);
+  mask-image: radial-gradient(ellipse 70% 60% at 50% 50%, black 40%, transparent 80%);
+}
+
+/* Animated gradient border — referencia 21st.dev magic-border */
+@keyframes border-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.glow-border {
+  position: relative;
+  isolation: isolate;
+}
+.glow-border::before {
+  content: '';
+  position: absolute;
+  inset: -1px;
+  z-index: -1;
+  border-radius: inherit;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg,
+    rgba(59, 130, 246, 0.6) 60deg,
+    transparent 120deg,
+    transparent 240deg,
+    rgba(59, 130, 246, 0.4) 300deg,
+    transparent 360deg
+  );
+  animation: border-spin 8s linear infinite;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+.glow-border:hover::before {
+  opacity: 1;
+}
+
+/* Pulse dot */
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0.4); }
+  70% { box-shadow: 0 0 0 10px rgba(59, 130, 246, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(59, 130, 246, 0); }
+}
+
+.pulse-dot {
+  animation: pulse-ring 2.2s cubic-bezier(0.66, 0, 0, 1) infinite;
+}
+
+/* Soft lift on hover */
+.card-lift {
+  transition: transform 0.35s cubic-bezier(0.2, 0.8, 0.2, 1),
+              border-color 0.35s ease,
+              box-shadow 0.35s ease;
+}
+.card-lift:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 20px 40px -20px rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(59, 130, 246, 0.2);
+}
+
+/* Shimmer underline / divider */
+.shimmer {
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(59, 130, 246, 0.5) 50%,
+    transparent 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer-move 3s linear infinite;
+}
+
+@keyframes shimmer-move {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+/* Subtle noise */
+.noise {
+  position: relative;
+}
+.noise::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.04;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
 }
 
 /* Fade in animation for scroll reveals */
@@ -30,18 +148,26 @@ body {
   transform: translateY(20px);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
-
 .fade-in.visible {
   opacity: 1;
   transform: translateY(0);
 }
-
-/* Stagger children */
 .fade-in:nth-child(2) { transition-delay: 0.06s; }
 .fade-in:nth-child(3) { transition-delay: 0.12s; }
 .fade-in:nth-child(4) { transition-delay: 0.18s; }
 .fade-in:nth-child(5) { transition-delay: 0.24s; }
 
+/* Gradient text */
+.text-gradient {
+  background: linear-gradient(135deg, #f5f5f5 0%, rgba(59, 130, 246, 0.9) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .fade-in { opacity: 1; transform: none; transition: none; }
+  .glow-border::before { animation: none; }
+  .pulse-dot { animation: none; }
+  .shimmer { animation: none; }
 }
