@@ -7,7 +7,7 @@ export async function GET() {
 IAhora qué es un espacio para CEOs y Founders que enfrentan la pregunta "IA, ¿ahora qué?". Espacios seguros para intercambiar datos, experiencias y catalizar el cambio basados en evidencia. Una mirada integral a la IA en tres dimensiones: eficiencia operativa, modelo de negocio y colaboración en ecosistema.
 
 ## Para quién es
-Para CEOs, Founders y líderes que ya entendieron que la IA cambia el juego, pero todavía no saben dónde ni cómo empezar a actuar. La soledad del que decide frente a la incertidumbre, sin pares con los que pensar en voz alta.
+Para CEOs, Founders y líderes que ya entendieron que la IA cambia el juego, pero todavía no saben dónde ni cómo empezar a actuar. La soledad del que decide frente a la incertidumbre y los cambios de contexto, sin pares con los que pensar en voz alta.
 
 ## Hipótesis que sostiene el espacio
 Si generamos grupos de aprendizaje entre pares en un entorno seguro, vamos a pasar de las ideas a las acciones — generando cambios concretos y tangibles en nuestros negocios.

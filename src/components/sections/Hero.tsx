@@ -2,7 +2,7 @@ const indice = [
   {
     number: '01',
     title: 'El problema',
-    subtitle: 'La soledad del que decide frente a la incertidumbre',
+    subtitle: 'La soledad del que decide frente a la incertidumbre y los cambios de contexto',
   },
   {
     number: '02',
