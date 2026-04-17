@@ -57,7 +57,7 @@ src/
 
 1. **Hero** — IAhora, ¿qué? + índice de las tres partes
 2. **Problem** — La soledad del que decide (3 dolores)
-3. **WhatIs** — Compartir para mejorar (3 dimensiones: adentro / el qué / afuera)
+3. **WhatIs** — Compartir para mejorar (3 dimensiones: procesos / prioridades / personas)
 4. **Learnings** — La hipótesis H1
 5. **Process** — Tres formas de empezar (1:1, grupos, viajes)
 6. **Metrics** — Tres impactos

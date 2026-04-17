@@ -4,7 +4,7 @@ export async function GET() {
   const content = `# IAhora qué — Espacios para decidir
 
 ## Qué es
-IAhora qué es un espacio para CEOs y Founders que enfrentan la pregunta "IA, ¿ahora qué?". Espacios seguros para intercambiar datos, experiencias y catalizar el cambio basados en evidencia. Una mirada integral a la IA en tres dimensiones: eficiencia operativa, modelo de negocio y colaboración en ecosistema.
+IAhora qué es un espacio para CEOs y Founders que enfrentan la pregunta "IA, ¿ahora qué?". Espacios seguros para intercambiar datos, experiencias y catalizar el cambio basados en evidencia. Una mirada integral a la IA en tres dimensiones: procesos, prioridades y personas.
 
 ## Para quién es
 Para CEOs, Founders y líderes que ya entendieron que la IA cambia el juego, pero todavía no saben dónde ni cómo empezar a actuar. La soledad del que decide frente a la incertidumbre y los cambios de contexto, sin pares con los que pensar en voz alta.
@@ -13,9 +13,9 @@ Para CEOs, Founders y líderes que ya entendieron que la IA cambia el juego, per
 Si generamos grupos de aprendizaje entre pares en un entorno seguro, vamos a pasar de las ideas a las acciones — generando cambios concretos y tangibles en nuestros negocios.
 
 ## Las tres dimensiones de la propuesta
-1. Eficiencia operativa (adentro): procesos que liberan tiempo y atención. Decisiones rápidas sobre datos que sí importan.
-2. Modelo de negocio (el qué): diversificar fuentes de ingresos. Reconocer qué se volvió commodity y qué aún no.
-3. Colaboración en ecosistema (afuera): relaciones con proveedores, aliados, competidores y comunidad. La ventaja sostenible vive en la red.
+1. Procesos (cómo): procesos que liberan tiempo y atención. Decisiones rápidas sobre datos que sí importan. Eficiencia operativa real.
+2. Prioridades (qué): qué hacer y qué dejar. Diversificar fuentes de ingresos, reconocer qué se volvió commodity y qué aún no. Dónde poner el foco.
+3. Personas (con quién): equipo, aliados, proveedores, clientes, comunidad. La ventaja sostenible vive en cómo se coordinan las personas adentro y afuera.
 
 ## Tres formas de empezar
 1. Sesiones 1:1 — Trabajamos sobre un desafío concreto. Al final tenés un agente operando ese proceso, no una idea de lo que podrías hacer.

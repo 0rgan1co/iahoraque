@@ -7,12 +7,12 @@ const indice = [
   {
     number: '02',
     title: 'La propuesta',
-    subtitle: 'Compartir para mejorar, en 3 dimensiones',
+    subtitle: 'Compartir para mejorar, en 3 dimensiones: procesos, prioridades, personas',
   },
   {
     number: '03',
     title: 'Cómo trabajamos',
-    subtitle: 'Tres formas de empezar, una sola lógica',
+    subtitle: 'Tres formas de empezar, una sola lógica. Contextos seguros para aprender haciendo con otras personas.',
   },
 ]
 

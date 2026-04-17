@@ -1,9 +1,9 @@
 const dimensiones = [
   {
-    label: 'adentro',
-    title: 'Eficiencia operativa',
+    label: 'cómo',
+    title: 'Procesos',
     body:
-      'Procesos que liberan tiempo y atención. Menos fricción entre intención y ejecución. Decisiones rápidas sobre datos que sí importan.',
+      'Procesos que liberan tiempo y atención. Menos fricción entre intención y ejecución. Decisiones rápidas sobre datos que sí importan — y eficiencia operativa real.',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
         <circle cx="12" cy="12" r="9" />
@@ -12,10 +12,10 @@ const dimensiones = [
     ),
   },
   {
-    label: 'el qué',
-    title: 'Modelo de negocio',
+    label: 'qué',
+    title: 'Prioridades',
     body:
-      'Diversificar fuentes de ingresos. Recuperar valor cuando la tecnología desplaza lo que antes era único. Ver qué se volvió commodity y qué aún no.',
+      'Qué hacer y qué dejar. Diversificar fuentes de ingresos, reconocer qué se volvió commodity y qué aún no. Decidir dónde poner el foco cuando todo grita por atención.',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
         <path d="M3 3v18h18" />
@@ -24,10 +24,10 @@ const dimensiones = [
     ),
   },
   {
-    label: 'afuera',
-    title: 'Colaboración en ecosistema',
+    label: 'con quién',
+    title: 'Personas',
     body:
-      'Relaciones con proveedores, aliados, competidores y comunidad. La ventaja sostenible ya no vive dentro de una empresa — vive en su red.',
+      'Equipo, aliados, proveedores, clientes, comunidad. La ventaja sostenible ya no vive dentro de una empresa — vive en cómo se coordinan las personas adentro y afuera.',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
         <circle cx="12" cy="12" r="3" />
