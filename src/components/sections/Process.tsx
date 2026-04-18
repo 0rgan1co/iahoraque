@@ -2,6 +2,7 @@ const actividades = [
   {
     number: '1',
     code: '1:1',
+    quote: '"Tengo un desafío concreto que quiero resolver ya."',
     title: 'Sesiones individuales',
     subtitle: 'De asistente a agente',
     description:
@@ -17,6 +18,7 @@ const actividades = [
   {
     number: '2',
     code: 'GR',
+    quote: '"No tengo con quién pensar esto al nivel que lo estoy viviendo."',
     title: 'Grupos de aprendizaje entre pares',
     subtitle: 'Entorno seguro, evidencia compartida',
     description:
@@ -34,6 +36,7 @@ const actividades = [
   {
     number: '3',
     code: '→',
+    quote: '"Quiero ver cómo otros resuelven lo que yo creo único."',
     title: 'Viajes de exploración',
     subtitle: 'Ampliar perspectivas',
     description:
@@ -85,7 +88,7 @@ export default function Process() {
             }}
           />
 
-          {actividades.map(({ number, code, title, subtitle, description, tags, icon }) => (
+          {actividades.map(({ number, code, quote, title, subtitle, description, tags, icon }) => (
             <div
               key={number}
               className="relative z-10 rounded-2xl p-7 border flex flex-col gap-5 card-lift backdrop-blur-sm"
@@ -113,6 +116,10 @@ export default function Process() {
                   </span>
                 </div>
               </div>
+
+              <p className="text-sm italic text-[rgba(255,255,255,0.55)] leading-relaxed pl-3 border-l-2 border-[rgba(221,132,72,0.4)]">
+                {quote}
+              </p>
 
               <div>
                 <h3 className="text-lg font-semibold text-[#f5f5f5] mb-3 leading-snug">

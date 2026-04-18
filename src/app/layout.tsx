@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Nav from '@/components/Nav'
 import OrganizationSD from '@/components/structured-data/OrganizationSD'
 import ServiceSD from '@/components/structured-data/ServiceSD'
 import FaqSD from '@/components/structured-data/FaqSD'
@@ -73,6 +74,7 @@ export default function RootLayout({
         <ServiceSD />
         <FaqSD />
         <HowToSD />
+        <Nav />
         {children}
       </body>
     </html>
