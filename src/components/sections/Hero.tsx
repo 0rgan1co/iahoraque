@@ -46,8 +46,14 @@ export default function Hero() {
       <p className="relative z-10 text-lg md:text-xl text-[rgba(255,255,255,0.65)] max-w-2xl mb-4 leading-relaxed">
         La pregunta que se hacen los CEOs y Founders cuando miran la IA y no saben por dónde empezar.
       </p>
-      <p className="relative z-10 text-base md:text-lg text-[rgba(255,255,255,0.85)] max-w-2xl mb-14 leading-relaxed">
+      <p className="relative z-10 text-base md:text-lg text-[rgba(255,255,255,0.85)] max-w-2xl mb-10 leading-relaxed">
         La respondemos juntos — con datos, pares y evidencia.
+      </p>
+
+      {/* Tesis contrarian */}
+      <p className="relative z-10 text-base md:text-xl text-[#f5f5f5] max-w-2xl mb-14 leading-snug tracking-[-0.01em] px-5 py-3 rounded-xl border-l-2 border-[#dd8448] bg-[rgba(221,132,72,0.04)]">
+        La IA no es el problema.{' '}
+        <span className="italic text-[#dd8448] font-medium">La soledad del que decide, sí.</span>
       </p>
 
       <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-3 max-w-4xl w-full mb-14">

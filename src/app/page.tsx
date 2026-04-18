@@ -7,6 +7,7 @@ import Principle from '@/components/sections/Principle'
 import Process from '@/components/sections/Process'
 import Agents from '@/components/sections/Agents'
 import Metrics from '@/components/sections/Metrics'
+import Team from '@/components/sections/Team'
 import Qualifier from '@/components/sections/Qualifier'
 import LeadForm from '@/components/sections/LeadForm'
 import Manifesto from '@/components/sections/Manifesto'
@@ -23,6 +24,7 @@ export default function Home() {
       <Process />
       <Agents />
       <Metrics />
+      <Team />
       <Qualifier />
       <LeadForm />
       <Manifesto />
