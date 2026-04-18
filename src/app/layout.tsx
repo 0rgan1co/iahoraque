@@ -17,7 +17,7 @@ const SITE_URL = 'https://0rgan1co.github.io/iahoraque'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: 'IAhora qué — Espacios para decidir',
+  title: 'IAhora qué — Espacios para decidir con criterio',
   description:
     'La pregunta que se hacen los CEOs y Founders cuando miran la IA y no saben por dónde empezar. Espacios seguros para intercambiar datos, experiencias y catalizar el cambio basados en evidencia.',
   keywords: [
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     locale: 'es_ES',
     url: SITE_URL,
     siteName: 'IAhora qué',
-    title: 'IAhora qué — Espacios para decidir',
+    title: 'IAhora qué — Espacios para decidir con criterio',
     description:
       'Compartir para mejorar. Espacios seguros para CEOs y Founders que quieren pasar de las ideas a las acciones con IA.',
     images: [
@@ -44,13 +44,13 @@ export const metadata: Metadata = {
         url: '/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'IAhora qué — Espacios para decidir',
+        alt: 'IAhora qué — Espacios para decidir con criterio',
       },
     ],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'IAhora qué — Espacios para decidir',
+    title: 'IAhora qué — Espacios para decidir con criterio',
     description:
       'Compartir para mejorar. Espacios seguros para CEOs y Founders que quieren pasar de las ideas a las acciones con IA.',
     images: ['/og-image.png'],

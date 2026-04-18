@@ -1,10 +1,11 @@
 const actividades = [
   {
     number: '1',
-    title: 'Sesiones 1:1',
-    subtitle: 'Decisión enfocada',
+    code: '1:1',
+    title: 'Sesiones individuales',
+    subtitle: 'De asistente a agente',
     description:
-      'Trabajamos sobre un desafío concreto de tu negocio. Al final tenés un agente operando ese proceso — no una idea de lo que podrías hacer.',
+      'Trabajamos sobre un desafío concreto de tu negocio. Al final tenés un agente de IA operando ese proceso — no una idea de lo que podrías hacer.',
     tags: ['Individual', 'Ciclo corto', 'Un proceso a la vez'],
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -15,8 +16,9 @@ const actividades = [
   },
   {
     number: '2',
-    title: 'Grupos entre pares',
-    subtitle: 'Aprendizaje en entorno seguro',
+    code: 'GR',
+    title: 'Grupos de aprendizaje entre pares',
+    subtitle: 'Entorno seguro, evidencia compartida',
     description:
       'CEOs y Founders enfrentando desafíos similares con IA. Lo que en una sala cerrada tarda meses, entre pares acontece en semanas. Confidencialidad como base.',
     tags: ['Grupal', 'Cohortes cerradas', 'Evidencia compartida'],
@@ -31,10 +33,11 @@ const actividades = [
   },
   {
     number: '3',
+    code: '→',
     title: 'Viajes de exploración',
     subtitle: 'Ampliar perspectivas',
     description:
-      'Salir del contexto propio para ver cómo otros — en otros sectores, otros países — resuelven problemas que creíamos únicos.',
+      'Salir del contexto propio para ampliar perspectivas. Ver cómo otros — en otros sectores, otros países — resuelven problemas que creíamos únicos.',
     tags: ['Inmersivo', 'Campo + conversación', 'Perspectiva ampliada'],
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -82,7 +85,7 @@ export default function Process() {
             }}
           />
 
-          {actividades.map(({ number, title, subtitle, description, tags, icon }) => (
+          {actividades.map(({ number, code, title, subtitle, description, tags, icon }) => (
             <div
               key={number}
               className="relative z-10 rounded-2xl p-7 border flex flex-col gap-5 card-lift backdrop-blur-sm"
@@ -102,8 +105,8 @@ export default function Process() {
                   {icon}
                 </div>
                 <div className="flex flex-col">
-                  <span className="text-xs font-bold text-[#3b82f6]">
-                    0{number}
+                  <span className="text-xs font-mono font-bold text-[#3b82f6] tracking-wider">
+                    {code}
                   </span>
                   <span className="text-[10px] font-semibold uppercase tracking-[0.2em] text-[rgba(255,255,255,0.4)]">
                     {subtitle}

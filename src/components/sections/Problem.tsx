@@ -2,19 +2,19 @@ const dolores = [
   {
     number: '01',
     title: 'La soledad del decisor',
-    body: 'Incertidumbre sin pares con los que pensar. El equipo espera respuestas; el directorio espera resultados.',
+    body: 'CEOs y Founders gestionando incertidumbre sin pares con los que pensar. El equipo espera respuestas; el directorio espera resultados.',
     accent: '#dd8448',
   },
   {
     number: '02',
-    title: 'La brecha entre saber y adoptar',
-    body: 'La IA avanza más rápido que la capacidad de las organizaciones para incorporarla con criterio. El gap no es técnico: es de decisión.',
+    title: 'La brecha entre el necesitar-querer y el saber-poder',
+    body: 'Hay una distancia doble: entre lo que el negocio necesita y lo que está preparado para hacer, y entre lo que sabe y lo que realmente puede ejecutar. La IA no cierra esa brecha sola — la amplifica si no se trabaja antes.',
     accent: '#dd8448',
   },
   {
     number: '03',
-    title: 'De la aspiración a la acción',
-    body: 'El obstáculo no es la falta de ideas. Es el puente entre la idea y el resultado concreto, tangible, medible.',
+    title: 'De la aspiración a los resultados',
+    body: 'El obstáculo no es la falta de ideas. Es la capacidad de ejecutar con excelencia para construir un puente entre la aspiración y el resultado concreto, tangible, medible.',
     accent: '#dd8448',
   },
 ]

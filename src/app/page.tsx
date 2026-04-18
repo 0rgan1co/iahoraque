@@ -2,11 +2,12 @@ import Hero from '@/components/sections/Hero'
 import Problem from '@/components/sections/Problem'
 import WhatIs from '@/components/sections/WhatIs'
 import Learnings from '@/components/sections/Learnings'
+import Principle from '@/components/sections/Principle'
 import Process from '@/components/sections/Process'
-import Journey from '@/components/sections/Journey'
-import Movements from '@/components/sections/Movements'
+import Agents from '@/components/sections/Agents'
 import Metrics from '@/components/sections/Metrics'
 import LeadForm from '@/components/sections/LeadForm'
+import Manifesto from '@/components/sections/Manifesto'
 
 export default function Home() {
   return (
@@ -15,11 +16,12 @@ export default function Home() {
       <Problem />
       <WhatIs />
       <Learnings />
+      <Principle />
       <Process />
-      <Journey />
-      <Movements />
+      <Agents />
       <Metrics />
       <LeadForm />
+      <Manifesto />
     </main>
   )
 }

@@ -14,7 +14,7 @@ export default function Learnings() {
         <div className="text-center mb-12">
           <span className="inline-flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.25em] text-[#3b82f6] px-3 py-1.5 rounded-full border border-[rgba(59,130,246,0.25)] bg-[rgba(59,130,246,0.06)] mb-4">
             <span className="w-1.5 h-1.5 rounded-full bg-[#3b82f6] pulse-dot" />
-            H1 · Nuestra apuesta
+            H1 · Hipótesis clave
           </span>
           <h2
             id="hipotesis-heading"
@@ -65,7 +65,7 @@ export default function Learnings() {
                 H1
               </span>
               <span className="text-[11px] uppercase tracking-[0.22em] text-[rgba(255,255,255,0.5)]">
-                Testeable · En curso
+                Nuestra apuesta · Testeable · En curso
               </span>
             </div>
             <div className="hidden sm:block h-px flex-1 max-w-[120px] shimmer rounded-full" />

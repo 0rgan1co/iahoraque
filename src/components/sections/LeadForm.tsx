@@ -24,7 +24,7 @@ export default function LeadForm() {
       <div className="relative z-10 max-w-3xl mx-auto text-center">
         <span className="inline-flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.25em] text-[#3b82f6] px-3 py-1.5 rounded-full border border-[rgba(59,130,246,0.25)] bg-[rgba(59,130,246,0.06)] mb-6">
           <span className="w-1.5 h-1.5 rounded-full bg-[#3b82f6] pulse-dot" />
-          Empezar
+          Punto de entrada
         </span>
         <h2
           id="cta-heading"
@@ -37,7 +37,7 @@ export default function LeadForm() {
         </h2>
 
         <p className="text-base md:text-xl text-[rgba(255,255,255,0.65)] max-w-2xl mx-auto leading-relaxed mb-14">
-          Una hora para entender en qué estás y si tiene sentido caminar juntos un tramo.
+          Sin pitch, sin propuesta cerrada. Una hora para entender en qué estás y si tiene sentido caminar juntos un tramo.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 items-center justify-center">
@@ -67,10 +67,13 @@ export default function LeadForm() {
           </a>
 
           <a
-            href="#propuesta-heading"
+            href="#manifiesto"
             className="inline-flex items-center gap-2 text-[rgba(255,255,255,0.6)] hover:text-[#f5f5f5] font-medium px-6 py-4 rounded-full text-base transition-colors"
           >
-            Volver a la propuesta
+            Leer el manifiesto
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+              <path d="M6 9l6 6 6-6" />
+            </svg>
           </a>
         </div>
 
@@ -82,7 +85,7 @@ export default function LeadForm() {
         <div className="mt-16 h-px w-full max-w-md mx-auto shimmer rounded-full opacity-60" aria-hidden="true" />
 
         <p className="mt-8 text-[11px] uppercase tracking-[0.3em] text-[rgba(255,255,255,0.3)]">
-          IAhora qué · Espacios para decidir
+          IAhora qué · Espacios para decidir con criterio
         </p>
       </div>
     </section>

@@ -57,10 +57,10 @@ export default function Metrics() {
             className="text-3xl md:text-5xl font-semibold text-[#f5f5f5] leading-[1.1] tracking-tight"
           >
             El cambio que{' '}
-            <span className="italic font-normal text-gradient">perseguimos.</span>
+            <span className="italic font-normal text-gradient">nos mueve.</span>
           </h2>
           <p className="text-[rgba(255,255,255,0.55)] mt-5 max-w-2xl mx-auto text-base md:text-lg leading-relaxed">
-            No trabajamos por métricas de vanidad. Organizaciones más rápidas, más autónomas y más conectadas hacen mejores decisiones — para sí mismas, para su gente y para el resto.
+            No trabajamos por métricas de vanidad. Trabajamos porque creemos que organizaciones más rápidas, más autónomas y más conectadas hacen negocios —y mundos— más habitables.
           </p>
         </div>
 

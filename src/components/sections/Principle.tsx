@@ -1,85 +1,71 @@
-import Quote from '@/components/Quote'
-
-const dimensiones = [
+const tresP = [
   {
-    label: 'adentro',
-    title: 'Eficiencia operativa',
+    label: 'quién hace qué',
+    title: 'Personas',
     body:
-      'Procesos que liberan tiempo y atención. Menos fricción entre intención y ejecución. Decisiones rápidas sobre datos que sí importan.',
+      'La IA desplaza tareas y nos ayuda a repensar los límites de los roles. Eso nos invita a conversar lo que se evitaba: qué decide cada uno, qué queda obsoleto, y libera espacio para poner foco en el trabajo que aporta mayor valor.',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-        <circle cx="12" cy="12" r="9" />
-        <path d="M12 7v5l3 3" />
+        <circle cx="9" cy="8" r="3" />
+        <circle cx="17" cy="10" r="2.5" />
+        <path d="M3 20c0-3 3-5 6-5s6 2 6 5" />
+        <path d="M15 20c0-2 2-3.5 4-3.5s4 1.5 4 3.5" />
       </svg>
     ),
   },
   {
-    label: 'el qué',
-    title: 'Modelo de negocio',
+    label: 'qué importa',
+    title: 'Prioridades',
     body:
-      'Diversificar fuentes de ingresos. Rediseñar la propuesta de valor cuando la tecnología desplaza lo que antes era único. Ver qué se volvió commodity y qué aún no.',
+      'Cuando un agente puede hacer en minutos lo que tomaba horas, lo escaso cambia. Eso nos invita a mirar con honestidad qué es lo urgente, qué es lo importante, y dónde vale la pena poner nuestra energía.',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-        <path d="M3 3v18h18" />
-        <path d="M7 14l4-4 3 3 5-6" />
+        <path d="M12 2l2.5 6.5L21 9.5l-5 4.5 1.5 7-5.5-3.5L6.5 21 8 14 3 9.5l6.5-1z" />
       </svg>
     ),
   },
   {
-    label: 'afuera',
-    title: 'Colaboración en ecosistema',
+    label: 'cómo lo hacemos',
+    title: 'Procesos',
     body:
-      'Relaciones con proveedores, aliados, competidores y comunidad. La ventaja sostenible ya no vive dentro de una empresa — vive en su red.',
+      'Diseñar un agente nos ayuda a explicitar el proceso que nunca estuvo escrito. Esa conversación, que se postergaba hace años, ahora se vuelve posible — y fértil.',
     icon: (
       <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-        <circle cx="12" cy="12" r="3" />
-        <circle cx="5" cy="6" r="2" />
-        <circle cx="19" cy="6" r="2" />
-        <circle cx="5" cy="18" r="2" />
-        <circle cx="19" cy="18" r="2" />
-        <path d="M7 7l3 3M17 7l-3 3M7 17l3-3M17 17l-3-3" />
+        <rect x="3" y="4" width="18" height="4" rx="1" />
+        <rect x="3" y="10" width="12" height="4" rx="1" />
+        <rect x="3" y="16" width="18" height="4" rx="1" />
       </svg>
     ),
   },
 ]
 
-export default function WhatIs() {
+export default function Principle() {
   return (
-    <section className="py-24 px-6 relative" aria-labelledby="propuesta-heading">
+    <section className="py-24 px-6 relative" aria-labelledby="principle-heading">
       <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 bg-grid-sm mask-radial opacity-40"
       />
 
       <div className="relative max-w-6xl mx-auto">
-        {/* Epígrafe Meadows */}
-        <div className="max-w-3xl mx-auto mb-14">
-          <Quote
-            variant="blue"
-            text="Estos son lugares dentro de un sistema complejo donde un pequeño cambio en una cosa puede producir grandes cambios en todo."
-            cite="Donella Meadows"
-            source="Leverage Points (1999)"
-          />
-        </div>
-
         <div className="text-center mb-16">
           <span className="inline-flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.25em] text-[#3b82f6] px-3 py-1.5 rounded-full border border-[rgba(59,130,246,0.2)] bg-[rgba(59,130,246,0.06)] mb-4">
-            Nuestra propuesta
+            Principio de método
           </span>
           <h2
-            id="propuesta-heading"
+            id="principle-heading"
             className="text-3xl md:text-5xl font-semibold text-[#f5f5f5] leading-[1.1] tracking-tight"
           >
-            Compartir para{' '}
-            <span className="italic font-normal text-gradient">mejorar.</span>
+            La IA como catalizador de las{' '}
+            <span className="italic font-normal text-gradient">3 P.</span>
           </h2>
           <p className="text-[rgba(255,255,255,0.55)] mt-5 max-w-2xl mx-auto text-base md:text-lg leading-relaxed">
-            Espacios seguros para intercambiar datos, experiencias y catalizar el cambio basados en evidencia. Una mirada integral que conecta tres dimensiones que suelen pensarse por separado.
+            La IA no es el cambio: es el catalizador. Nos invita —por fin— a mirar lo que veníamos postergando: cómo trabajamos, qué priorizamos y quién hace qué. Bien usada, evoluciona las 3 P al mismo tiempo.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-          {dimensiones.map(({ label, title, body, icon }) => (
+          {tresP.map(({ label, title, body, icon }) => (
             <div
               key={label}
               className="group relative rounded-2xl p-7 border flex flex-col gap-5 card-lift overflow-hidden backdrop-blur-sm"
@@ -127,6 +113,10 @@ export default function WhatIs() {
             </div>
           ))}
         </div>
+
+        <p className="relative text-center mt-12 italic text-[rgba(255,255,255,0.55)] max-w-2xl mx-auto text-base md:text-lg leading-relaxed">
+          La IA no resuelve las 3 P. Las pone sobre la mesa y nos da herramientas para evolucionarlas juntos.
+        </p>
       </div>
     </section>
   )
