@@ -16,8 +16,8 @@ const people: Person[] = [
   },
   {
     name: 'Jorge Roldán',
-    role: 'Co-creador · Diseño de sistemas y aprendizaje',
-    body: 'Diseña y opera sistemas de aprendizaje y decisión con IA. Trabaja en la intersección de producto, organización y criterio — acompañando a equipos a convertir preguntas abiertas en experimentos que operan.',
+    role: 'Agente de cambio organizacional',
+    body: 'Acompaña a equipos y fundadores a convertir preguntas abiertas en experimentos que operan. Trabaja en la intersección de producto, organización y criterio, diseñando los sistemas de aprendizaje y decisión que sostienen el cambio.',
     link: { href: 'https://www.linkedin.com/in/roldanjorgex/', label: 'LinkedIn' },
     initials: 'JR',
   },
