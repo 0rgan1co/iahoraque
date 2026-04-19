@@ -122,9 +122,9 @@ export default function Process() {
               </p>
 
               <div>
-                <h3 className="text-lg font-semibold text-[#f5f5f5] mb-3 leading-snug">
+                <h4 className="text-lg font-semibold text-[#f5f5f5] mb-3 leading-snug">
                   {title}
-                </h3>
+                </h4>
                 <p className="text-sm text-[rgba(255,255,255,0.6)] leading-relaxed">
                   {description}
                 </p>

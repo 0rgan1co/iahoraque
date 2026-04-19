@@ -58,6 +58,7 @@ export default function Manifesto() {
       <div className="relative max-w-4xl mx-auto">
         <div className="text-center mb-14">
           <span className="inline-flex items-center gap-2 text-[10px] font-semibold uppercase tracking-[0.25em] text-[#3b82f6] px-3 py-1.5 rounded-full border border-[rgba(59,130,246,0.25)] bg-[rgba(59,130,246,0.06)] mb-5">
+            <span className="w-1.5 h-1.5 rounded-full bg-[#3b82f6] pulse-dot" />
             Anexo
           </span>
           <h2

@@ -8,7 +8,7 @@ const dolores = [
   {
     number: '02',
     title: 'La brecha entre el necesitar-querer y el saber-poder',
-    body: 'Hay una distancia doble: entre lo que el negocio necesita y lo que está preparado para hacer, y entre lo que sabe y lo que realmente puede ejecutar. La IA no cierra esa brecha sola — la amplifica si no se trabaja antes.',
+    body: 'El negocio necesita más de lo que está preparado para hacer, y sabe más de lo que realmente puede ejecutar. La IA no cierra esa brecha: la amplifica.',
     accent: '#dd8448',
   },
   {
@@ -78,9 +78,9 @@ export default function Problem() {
               </div>
 
               <div>
-                <h3 className="text-lg font-semibold text-[#f5f5f5] mb-3 leading-snug">
+                <h4 className="text-lg font-semibold text-[#f5f5f5] mb-3 leading-snug">
                   {title}
-                </h3>
+                </h4>
                 <p className="text-sm text-[rgba(255,255,255,0.6)] leading-relaxed">
                   {body}
                 </p>

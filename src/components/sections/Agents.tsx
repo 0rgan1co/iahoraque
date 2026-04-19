@@ -171,9 +171,9 @@ export default function Agents() {
               <div className="flex items-start justify-between gap-3">
                 <div className="flex items-baseline gap-2">
                   <span className="text-sm font-bold text-[#3b82f6]">{number}</span>
-                  <h3 className="text-base font-semibold text-[#f5f5f5] leading-snug">
+                  <h4 className="text-base font-semibold text-[#f5f5f5] leading-snug">
                     {challenge}
-                  </h3>
+                  </h4>
                 </div>
                 <span
                   className="text-[10px] font-semibold uppercase tracking-[0.18em] px-2 py-1 rounded-full flex-shrink-0"

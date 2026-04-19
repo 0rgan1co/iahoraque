@@ -15,7 +15,7 @@ Especificaciones funcionales y de experiencia, escritas con el formato EARS (Eas
 - ⏳ Pendiente
 - ❌ Bloqueado (requiere input del usuario)
 
-**Última actualización:** 2026-04-18 · post-Sprint 1
+**Última actualización:** 2026-04-19 · post-Sprint 3
 
 ---
 
@@ -46,7 +46,7 @@ Especificaciones funcionales y de experiencia, escritas con el formato EARS (Eas
 | ID | EARS | Estado |
 |----|------|--------|
 | PRB-01 | La sección Problema debe presentar exactamente 3 dolores, nombrados desde la perspectiva del decisor. | ✅ |
-| PRB-02 | Cada dolor debe resolverse en ≤2 oraciones. | 🔶 (2 de 3 superan 2 oraciones — Sprint 2) |
+| PRB-02 | Cada dolor debe resolverse en ≤2 oraciones. | ✅ |
 | PRB-03 | La sección debe usar color de acento distinto (naranja) para diferenciarse de la propuesta (azul). | ✅ |
 | PRB-04 | Donde sea posible, cada dolor debe enunciarse como frase afirmativa (no pregunta). | ✅ |
 
@@ -62,10 +62,10 @@ Especificaciones funcionales y de experiencia, escritas con el formato EARS (Eas
 
 | ID | EARS | Estado |
 |----|------|--------|
-| PRP-01 | La landing debe tener UNA sola sección que sostenga la propuesta de valor (sin duplicación con Principle). | ✅ (fusionada en Proposal) |
-| PRP-02 | La propuesta debe articular las 3 P (personas / prioridades / procesos) como catalizador de la IA. | ✅ (decisión tomada) |
+| PRP-01 | La landing debe tener UNA sola sección que sostenga la propuesta de valor (sin duplicación con Principle). | ✅ |
+| PRP-02 | La propuesta debe articular las 3 P (personas / prioridades / procesos) como catalizador de la IA. | ✅ |
 | PRP-03 | La propuesta debe contener un epígrafe de autoridad externa (ej. Donella Meadows). | ✅ |
-| PRP-04 | La hipótesis H1 debe presentarse como cita destacada integrada a la propuesta, no como sección separada. | ✅ (cerrando Proposal) |
+| PRP-04 | La hipótesis H1 debe presentarse como cita destacada integrada a la propuesta, no como sección separada. | ✅ |
 
 ## 6. Proceso
 
@@ -89,10 +89,10 @@ Especificaciones funcionales y de experiencia, escritas con el formato EARS (Eas
 
 | ID | EARS | Estado |
 |----|------|--------|
-| TEM-01 | La landing debe presentar a las personas detrás del espacio antes del qualifier. | ✅ (entre Agents y Qualifier) |
-| TEM-02 | Cada persona debe tener: nombre, rol claro, bio de 3 párrafos, link externo. | ⏳ (1 párrafo, placeholder) |
-| TEM-03 | Cada bio debe abrir con un quote personal o claim de filosofía. | ⏳ |
-| TEM-04 | Cada persona debe tener ≥3 credenciales concretas (stats, empresas, logros) en bullets. | ⏳ |
+| TEM-01 | La landing debe presentar a las personas detrás del espacio antes del qualifier. | ✅ |
+| TEM-02 | Cada persona debe tener: nombre, rol claro, bio de 3 párrafos, link externo. | ✅ |
+| TEM-03 | Cada bio debe abrir con un quote personal o claim de filosofía. | ✅ |
+| TEM-04 | Cada persona debe tener ≥3 credenciales concretas (stats, empresas, logros) en bullets. | ✅ (4 por persona) |
 | TEM-05 | La sección debe cerrar con un authority claim colectivo ("No hablamos de teoría…"). | ✅ |
 
 ## 9. Qualifier
@@ -107,8 +107,8 @@ Especificaciones funcionales y de experiencia, escritas con el formato EARS (Eas
 
 | ID | EARS | Estado |
 |----|------|--------|
-| CTA-01 | La sección CTA final debe tener un solo botón primario visible por encima del fold. | ✅ (link secundario al manifesto degradado a texto pequeño) |
-| CTA-02 | El CTA debe declarar qué va a pasar en la conversación (promesa concreta). | ✅ ("30 minutos para entender tu pregunta abierta, nombrar el cuello de botella y recomendarte el camino") |
+| CTA-01 | La sección CTA final debe tener un solo botón primario visible por encima del fold. | ✅ |
+| CTA-02 | El CTA debe declarar qué va a pasar en la conversación (promesa concreta). | ✅ |
 | CTA-03 | La sección debe manejar objeciones típicas ("sin pitch, sin compromiso"). | ✅ |
 | CTA-04 | Cuando el usuario hace clic en el CTA primario, debe abrirse TidyCal en nueva pestaña. | ✅ |
 
@@ -125,10 +125,10 @@ Especificaciones funcionales y de experiencia, escritas con el formato EARS (Eas
 
 | ID | EARS | Estado |
 |----|------|--------|
-| UXW-01 | La landing debe usar una sola persona verbal (tú) de forma uniforme. | ✅ (tuteo aplicado) |
-| UXW-02 | Los párrafos en cards deben tener entre 2 y 4 oraciones; nunca más. | 🔶 (algunos 4+) |
-| UXW-03 | Donde sea posible, debe usarse frases afirmativas cortas con ritmo (no listas narrativas). | 🔶 |
-| UXW-04 | La landing debe incluir al menos un authority claim personal ("viví cada uno de estos problemas"). | ⏳ (solo en Manifesto, falta en Team) |
+| UXW-01 | La landing debe usar una sola persona verbal (tú) de forma uniforme. | ✅ |
+| UXW-02 | Los párrafos en cards deben tener entre 2 y 4 oraciones; nunca más. | ✅ |
+| UXW-03 | Donde sea posible, debe usarse frases afirmativas cortas con ritmo (no listas narrativas). | ✅ |
+| UXW-04 | La landing debe incluir al menos un authority claim personal ("viví cada uno de estos problemas"). | ✅ (en bio de Gaël + cierre de Team) |
 | UXW-05 | La landing debe evitar buzzwords vacíos sobre IA; si se usa el término, debe justificarse con una definición operativa. | ✅ |
 
 ## 13. UI — jerarquía visual y consistencia
@@ -136,10 +136,10 @@ Especificaciones funcionales y de experiencia, escritas con el formato EARS (Eas
 | ID | EARS | Estado |
 |----|------|--------|
 | UIV-01 | Los H2 de sección deben usar tamaño 3xl-5xl con tracking tight. | ✅ |
-| UIV-02 | Los subtítulos dentro de listas deben usar H4 (no H3) para mantener jerarquía. | ⏳ |
+| UIV-02 | Los subtítulos dentro de listas deben usar H4 (no H3) para mantener jerarquía. | ✅ (Problem, Proposal, Process, Agents, Team) |
 | UIV-03 | La paleta debe limitarse a 2 colores de acento: azul (#3b82f6) y ámbar (#dd8448). | ✅ |
 | UIV-04 | Cada sección debe usar al menos un fondo visual distintivo (grid pattern, dots, glow). | ✅ |
-| UIV-05 | Los eyebrows con badge + pulse dot deben reservarse para ≤4 secciones "pilares"; el resto debe tener eyebrows minimalistas. | ⏳ (casi todas con badge) |
+| UIV-05 | Los eyebrows con badge + pulse dot deben reservarse para ≤4 secciones "pilares"; el resto debe tener eyebrows minimalistas. | ✅ (Hero · Proposal · LeadForm · Manifesto) |
 | UIV-06 | Los botones primarios deben tener shadow con glow en tono de acento. | ✅ |
 
 ## 14. Responsive
@@ -176,7 +176,7 @@ Especificaciones funcionales y de experiencia, escritas con el formato EARS (Eas
 
 | ID | EARS | Estado |
 |----|------|--------|
-| FUN-01 | El CTA primario debe aparecer al menos 3 veces a lo largo de la landing (hero, mid, final). | ✅ (Hero · Process footer · LeadForm) |
+| FUN-01 | El CTA primario debe aparecer al menos 3 veces a lo largo de la landing (hero, mid, final). | ✅ |
 | FUN-02 | El CTA debe ser consistente en texto ("Agendar una conversación") a través de toda la landing. | ✅ |
 | FUN-03 | Cuando el usuario llega al qualifier y no se auto-descalifica, debe tener el CTA final visible en el siguiente scroll. | ✅ |
 | FUN-04 | La sección Team debe posicionarse después de Agents (prueba) y antes del Qualifier (filtro), para ganar credibilidad antes de pedir la conversión. | ✅ |
@@ -189,47 +189,57 @@ Especificaciones funcionales y de experiencia, escritas con el formato EARS (Eas
 |-----------|-------------|------------|---------------|---------------|-------|
 | Estructura | 6 | 0 | 0 | 0 | 6 |
 | Hero | 6 | 0 | 0 | 0 | 6 |
-| Problema | 3 | 1 | 0 | 0 | 4 |
+| Problema | 4 | 0 | 0 | 0 | 4 |
 | Costo | 3 | 0 | 0 | 0 | 3 |
 | Propuesta | 4 | 0 | 0 | 0 | 4 |
 | Proceso | 4 | 0 | 0 | 0 | 4 |
 | Agentes | 4 | 0 | 0 | 0 | 4 |
-| Team | 2 | 0 | 3 | 0 | 5 |
+| Team | 5 | 0 | 0 | 0 | 5 |
 | Qualifier | 3 | 0 | 0 | 0 | 3 |
 | CTA | 4 | 0 | 0 | 0 | 4 |
 | Manifesto | 4 | 0 | 0 | 0 | 4 |
-| UX Writing | 2 | 2 | 1 | 0 | 5 |
-| UI | 4 | 0 | 2 | 0 | 6 |
+| UX Writing | 5 | 0 | 0 | 0 | 5 |
+| UI | 6 | 0 | 0 | 0 | 6 |
 | Responsive | 4 | 0 | 0 | 0 | 4 |
 | Accesibilidad | 5 | 0 | 0 | 0 | 5 |
 | Performance/SEO | 6 | 0 | 0 | 0 | 6 |
 | Conversión | 4 | 0 | 0 | 0 | 4 |
-| **Total** | **68** | **3** | **6** | **0** | **77** |
+| **Total** | **77** | **0** | **0** | **0** | **77** |
 
-**Cobertura actual: 68/77 = 88% resuelto · 4% parcial · 8% pendiente · 0% bloqueado**
-
-**Mejora vs. baseline:** 73% → 88% (+15 puntos, Sprint 1 cerrado)
+**Cobertura actual: 77/77 = 100% resuelto** 🎯
 
 ---
 
-## Delta Sprint 1 — qué resolvió
+## Historial de sprints
 
-- ✅ STR-01, STR-02 — consolidación a 10 secciones sin redundancia
-- ✅ HRO-06 — subtítulo en 3 oraciones con ritmo
-- ✅ PRP-01, PRP-02, PRP-04 — Propuesta única con las 3 P y la hipótesis H1 integrada como cita
-- ✅ TEM-01 — Team reubicada entre Agents y Qualifier
-- ✅ CTA-01, CTA-02 — un solo botón + promesa concreta ("30 min...")
-- ✅ FUN-01, FUN-02 — CTA triplicado y consistente
-- ✅ UXW-01 — tuteo uniforme
+### Baseline (pre-Sprint 1)
+- Cobertura: 56/77 (73%)
+- Estructura con 12 secciones, tono mixto, CTA doble
 
-## Pendiente para próximos sprints
+### Sprint 1 (STR, PRP, TEM, CTA, FUN, UXW) — +15 pts → 88%
+- Consolidación 12→10 secciones
+- Fusión WhatIs+Principle+Learnings en Proposal
+- 3 P como catalizador (decisión tomada)
+- Team movida antes del Qualifier
+- CTA único + promesa concreta
+- Tuteo uniforme
 
-### Sprint 2 — UX Writing (resuelve 6 specs)
-- PRB-02 — recortar cada dolor a ≤2 oraciones
-- TEM-02, TEM-03, TEM-04 — bios completas (3 párrafos + quote + credenciales) ← **requiere input de bios reales**
-- UXW-02, UXW-03 — párrafos más cortos, ritmo afirmativo
-- UXW-04 — authority claim personal en Team
+### Sprint 2 (PRB, TEM, UXW) — +7 pts → 97%
+- Recorte del segundo dolor para cumplir ≤2 oraciones
+- Bios ricas de Team: quote personal, 3 párrafos, 4 credenciales por persona, link LinkedIn
+- Authority claim personal en Gaël ("Viví cada uno de los problemas…")
 
-### Sprint 3 — UI polish (resuelve 2 specs)
-- UIV-02 — H4 en subtítulos de listas
-- UIV-05 — reducir eyebrows con badge a 4 secciones pilares
+### Sprint 3 (UIV) — +3 pts → 100%
+- H3 → H4 en todos los subtítulos de cards (Problem, Proposal, Process, Agents, Team)
+- Pulse dot restringido a 4 pilares (Hero, Proposal, LeadForm, Manifesto)
+- Badge sin pulse agregado al Manifesto para mantener identidad del pilar
+
+---
+
+## Mantenimiento
+
+Los specs deben revisarse cuando:
+- Se agregue una nueva sección
+- Se cambie el copy de un eyebrow o título
+- Se modifique el orden del scroll
+- Se cambie el CTA principal
