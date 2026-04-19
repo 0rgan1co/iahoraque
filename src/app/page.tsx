@@ -1,12 +1,9 @@
 import Hero from '@/components/sections/Hero'
 import Problem from '@/components/sections/Problem'
 import Cost from '@/components/sections/Cost'
-import WhatIs from '@/components/sections/WhatIs'
-import Learnings from '@/components/sections/Learnings'
-import Principle from '@/components/sections/Principle'
+import Proposal from '@/components/sections/Proposal'
 import Process from '@/components/sections/Process'
 import Agents from '@/components/sections/Agents'
-import Metrics from '@/components/sections/Metrics'
 import Team from '@/components/sections/Team'
 import Qualifier from '@/components/sections/Qualifier'
 import LeadForm from '@/components/sections/LeadForm'
@@ -18,12 +15,9 @@ export default function Home() {
       <Hero />
       <Problem />
       <Cost />
-      <WhatIs />
-      <Learnings />
-      <Principle />
+      <Proposal />
       <Process />
       <Agents />
-      <Metrics />
       <Team />
       <Qualifier />
       <LeadForm />

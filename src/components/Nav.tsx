@@ -3,8 +3,8 @@ const TIDYCAL_URL = 'https://tidycal.com/roldanjorgex'
 const links = [
   { href: '#problem-heading', label: 'Problema' },
   { href: '#propuesta-heading', label: 'Propuesta' },
-  { href: '#principle-heading', label: 'Método' },
   { href: '#actividades-heading', label: 'Cómo trabajamos' },
+  { href: '#agents-heading', label: 'Agentes' },
   { href: '#manifiesto', label: 'Manifiesto' },
 ]
 

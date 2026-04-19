@@ -2,12 +2,12 @@ const indice = [
   {
     number: '01',
     title: 'El problema',
-    subtitle: 'La soledad del que decide frente a la incertidumbre y los cambios de contexto',
+    subtitle: 'La soledad del que decide frente a la incertidumbre y los cambios de contexto.',
   },
   {
     number: '02',
     title: 'La propuesta',
-    subtitle: 'Compartir para mejorar, en 3 dimensiones: adentro, el qué y afuera',
+    subtitle: 'Compartir para mejorar. La IA como catalizador de las 3 P: personas, prioridades, procesos.',
   },
   {
     number: '03',
@@ -37,24 +37,30 @@ export default function Hero() {
         Un espacio para quienes deciden
       </span>
 
-      <h1 className="relative z-10 text-5xl md:text-7xl lg:text-8xl font-semibold tracking-[-0.03em] leading-[0.98] max-w-5xl mb-6 text-[#f5f5f5]">
+      <h1 className="relative z-10 text-5xl md:text-7xl lg:text-8xl font-semibold tracking-[-0.03em] leading-[0.98] max-w-5xl mb-8 text-[#f5f5f5]">
         <span className="text-[#3b82f6] font-bold not-italic">IA</span>
         <span>hora,</span>{' '}
         <span className="text-gradient italic font-normal">¿qué?</span>
       </h1>
 
-      <p className="relative z-10 text-lg md:text-xl text-[rgba(255,255,255,0.65)] max-w-2xl mb-4 leading-relaxed">
-        La pregunta que se hacen los CEOs y Founders cuando miran la IA y no saben por dónde empezar.
-      </p>
-      <p className="relative z-10 text-base md:text-lg text-[rgba(255,255,255,0.85)] max-w-2xl mb-10 leading-relaxed">
-        La respondemos juntos — con datos, pares y evidencia.
+      {/* Tesis contrarian — ahora protagónica */}
+      <p className="relative z-10 text-xl md:text-3xl text-[#f5f5f5] max-w-3xl mb-10 leading-[1.2] tracking-[-0.015em] font-medium">
+        La IA no es el problema.{' '}
+        <span className="italic text-[#dd8448]">La soledad del que decide, sí.</span>
       </p>
 
-      {/* Tesis contrarian */}
-      <p className="relative z-10 text-base md:text-xl text-[#f5f5f5] max-w-2xl mb-14 leading-snug tracking-[-0.01em] px-5 py-3 rounded-xl border-l-2 border-[#dd8448] bg-[rgba(221,132,72,0.04)]">
-        La IA no es el problema.{' '}
-        <span className="italic text-[#dd8448] font-medium">La soledad del que decide, sí.</span>
-      </p>
+      {/* Subtítulo en 3 oraciones con ritmo */}
+      <div className="relative z-10 max-w-2xl mb-14 flex flex-col gap-1.5">
+        <p className="text-base md:text-lg text-[rgba(255,255,255,0.7)] leading-relaxed">
+          Tu equipo espera respuestas. El directorio espera resultados.
+        </p>
+        <p className="text-base md:text-lg text-[rgba(255,255,255,0.7)] leading-relaxed">
+          Pero estás solo frente a la incertidumbre de lo que viene.
+        </p>
+        <p className="text-base md:text-lg text-[#f5f5f5] leading-relaxed font-medium">
+          Respondemos la pregunta juntos — con datos, pares y evidencia.
+        </p>
+      </div>
 
       <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-3 max-w-4xl w-full mb-14">
         {indice.map(({ number, title, subtitle }) => (
@@ -79,10 +85,10 @@ export default function Hero() {
 
       <div className="relative z-10 flex flex-col sm:flex-row gap-3 items-center justify-center">
         <a
-          href="#actividades-heading"
+          href="#contacto"
           className="inline-flex items-center gap-2.5 bg-[#3b82f6] hover:bg-[#2563eb] text-white font-semibold px-8 py-4 rounded-full text-base md:text-lg transition-all duration-200 hover:scale-105 shadow-[0_0_40px_-10px_rgba(59,130,246,0.6)] group"
         >
-          Ver cómo trabajamos
+          Agendar una conversación
           <svg
             width="18"
             height="18"

@@ -1,17 +1,17 @@
-const esParaVos = [
-  'Sos CEO, Founder o líder con responsabilidad real sobre el negocio.',
-  'Sentís la soledad del que decide y valorás pensar entre pares.',
-  'Querés pasar de las ideas a las acciones en ciclos cortos.',
+const esParaTi = [
+  'Eres CEO, Founder o líder con responsabilidad real sobre el negocio.',
+  'Sientes la soledad del que decide y valoras pensar entre pares.',
+  'Quieres pasar de las ideas a las acciones en ciclos cortos.',
   'Estás dispuesto a poner evidencia —tuya y del grupo— sobre la mesa.',
-  'Preferís traer preguntas abiertas antes que certezas ensayadas.',
+  'Prefieres traer preguntas abiertas antes que certezas ensayadas.',
 ]
 
-const noEsParaVos = [
-  'Buscás una consultoría tradicional con un plan de 12 meses.',
-  'Necesitás un único proveedor que te haga el trabajo puerta a puerta.',
-  'Esperás resultados en dos semanas sin involucrarte.',
+const noEsParaTi = [
+  'Buscas una consultoría tradicional con un plan de 12 meses.',
+  'Necesitas un único proveedor que te haga el trabajo puerta a puerta.',
+  'Esperas resultados en dos semanas sin involucrarte.',
   'No estás dispuesto a compartir contexto real entre pares.',
-  'Todavía no tenés decisión final sobre lo que se prueba y se escala.',
+  'Todavía no tienes decisión final sobre lo que se prueba y se escala.',
 ]
 
 function CheckIcon() {
@@ -73,7 +73,7 @@ export default function Qualifier() {
             <span className="italic font-normal text-gradient">sin vueltas.</span>
           </h2>
           <p className="text-[rgba(255,255,255,0.55)] mt-5 max-w-2xl mx-auto text-base md:text-lg leading-relaxed">
-            Este espacio no es para todos. Mejor decirlo ahora: si te encontrás en la columna de la izquierda, tenemos mucho de qué hablar. Si en la derecha, te ahorramos una hora.
+            Este espacio no es para todos. Mejor decirlo ahora: si te encuentras en la columna de la izquierda, tenemos mucho de qué hablar. Si en la derecha, te ahorramos una hora.
           </p>
         </div>
 
@@ -96,11 +96,11 @@ export default function Qualifier() {
                 </svg>
               </div>
               <h3 className="text-lg font-semibold text-[#f5f5f5]">
-                Es para vos si…
+                Es para ti si…
               </h3>
             </div>
             <ul className="flex flex-col gap-3.5">
-              {esParaVos.map((item, i) => (
+              {esParaTi.map((item, i) => (
                 <li
                   key={i}
                   className="flex items-start gap-3 text-sm md:text-base text-[rgba(255,255,255,0.75)] leading-relaxed"
@@ -130,11 +130,11 @@ export default function Qualifier() {
                 </svg>
               </div>
               <h3 className="text-lg font-semibold text-[#f5f5f5]">
-                No es para vos si…
+                No es para ti si…
               </h3>
             </div>
             <ul className="flex flex-col gap-3.5">
-              {noEsParaVos.map((item, i) => (
+              {noEsParaTi.map((item, i) => (
                 <li
                   key={i}
                   className="flex items-start gap-3 text-sm md:text-base text-[rgba(255,255,255,0.6)] leading-relaxed"

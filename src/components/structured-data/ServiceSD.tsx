@@ -19,7 +19,7 @@ export default function ServiceSD() {
           "itemOffered": {
             "@type": "Service",
             "name": "Sesiones 1:1",
-            "description": "Trabajamos sobre un desafío concreto de tu negocio. Al final tenés un agente operando ese proceso — no una idea de lo que podrías hacer."
+            "description": "Trabajamos sobre un desafío concreto de tu negocio. Al final tienes un agente operando ese proceso — no una idea de lo que podrías hacer."
           }
         },
         {

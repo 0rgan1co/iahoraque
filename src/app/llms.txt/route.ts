@@ -18,7 +18,7 @@ Si generamos grupos de aprendizaje entre pares en un entorno seguro, vamos a pas
 3. Personas (con quién): equipo, aliados, proveedores, clientes, comunidad. La ventaja sostenible vive en cómo se coordinan las personas adentro y afuera.
 
 ## Tres formas de empezar
-1. Sesiones 1:1 — Trabajamos sobre un desafío concreto. Al final tenés un agente operando ese proceso, no una idea de lo que podrías hacer.
+1. Sesiones 1:1 — Trabajamos sobre un desafío concreto. Al final tienes un agente operando ese proceso, no una idea de lo que podrías hacer.
 2. Grupos entre pares — CEOs y Founders enfrentando desafíos similares. Cohortes cerradas, confidencialidad como base, evidencia compartida.
 3. Viajes de exploración — Salir del contexto propio para ver cómo otros sectores y países resuelven problemas que creíamos únicos.
 

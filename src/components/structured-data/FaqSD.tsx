@@ -5,7 +5,7 @@ const faqs = [
   },
   {
     question: "¿Para quién es?",
-    answer: "Para CEOs, Founders y líderes que ya entendieron que la IA cambia el juego, pero todavía no saben dónde ni cómo empezar a actuar. Si te sentís solo frente a la decisión, o si el equipo y el directorio esperan respuestas que nadie todavía tiene, este es el espacio."
+    answer: "Para CEOs, Founders y líderes que ya entendieron que la IA cambia el juego, pero todavía no saben dónde ni cómo empezar a actuar. Si te sientes solo frente a la decisión, o si el equipo y el directorio esperan respuestas que nadie todavía tiene, este es el espacio."
   },
   {
     question: "¿Cuál es la hipótesis que están testeando?",

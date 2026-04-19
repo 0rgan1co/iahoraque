@@ -6,7 +6,7 @@ const actividades = [
     title: 'Sesiones individuales',
     subtitle: 'De asistente a agente',
     description:
-      'Trabajamos sobre un desafío concreto de tu negocio. Al final tenés un agente de IA operando ese proceso — no una idea de lo que podrías hacer.',
+      'Trabajamos sobre un desafío concreto de tu negocio. Al final tienes un agente de IA operando ese proceso — no una idea de lo que podrías hacer.',
     tags: ['Individual', 'Ciclo corto', 'Un proceso a la vez'],
     icon: (
       <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">

@@ -83,7 +83,7 @@ export default function Manifesto() {
             Cuatro creencias que están detrás de este espacio.
           </h3>
           <p className="italic text-[rgba(255,255,255,0.5)] max-w-2xl mx-auto text-sm md:text-base leading-relaxed">
-            Este manifiesto existe para filtrar con honestidad. Si compartís estas cuatro creencias, probablemente tengamos una conversación interesante por delante.
+            Este manifiesto existe para filtrar con honestidad. Si compartes estas cuatro creencias, probablemente tengamos una conversación interesante por delante.
           </p>
         </div>
 

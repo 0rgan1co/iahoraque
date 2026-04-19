@@ -9,7 +9,7 @@ export default function HowToSD() {
         "@type": "HowToStep",
         "position": 1,
         "name": "Sesiones 1:1",
-        "text": "Trabajamos sobre un desafío concreto de tu negocio. Al final tenés un agente operando ese proceso — no una idea de lo que podrías hacer."
+        "text": "Trabajamos sobre un desafío concreto de tu negocio. Al final tienes un agente operando ese proceso — no una idea de lo que podrías hacer."
       },
       {
         "@type": "HowToStep",
